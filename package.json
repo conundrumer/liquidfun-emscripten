@@ -15,7 +15,7 @@
     ],
     "author": "Nicholas Horlocker (http://evil-zebra.com)",
     "scripts": {
-        "build-es6": "./build-es6.sh > liquidfun.es6.js",
+        "build": "./build.sh > liquidfun.js; ./build-es6.sh > liquidfun.es6.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "bugs": {
